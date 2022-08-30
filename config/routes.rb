@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/shoe'
+  get 'users/show'
   get 'users/edit'
   get 'books/new'
   get 'books/index'

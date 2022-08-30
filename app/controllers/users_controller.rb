@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  def shoe
+  def show
   end
 
   def edit
