@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   # get 'users/show'
   # get 'users/edit'
-  resources :user, only: [:show, :edit, :update]
+  resources :user, only: [:show, :edit, :index, :update]
   resources :books, only: [:new, :index, :show, :edit,]
   # get 'books/new'
   # get 'books/index'
