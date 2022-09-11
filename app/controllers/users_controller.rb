@@ -18,6 +18,8 @@ class UsersController < ApplicationController
     if @user.update(user_params)
       flash[:success]="You have updated user successfully."
      redirect_to "/books"
+    else
+      render :edit
     end
   end
   
